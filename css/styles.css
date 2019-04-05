@@ -1,3 +1,25 @@
+body {
+  background-color: #232323;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+button {
+  background-color: #3E4142;
+  color: #168282;
+  height: 30px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+h1 {
+  color: white;
+}
+
+img {
+  border-radius: 6px;
+}
+
 /* container for image and output */
 .container {
   position: relative;
@@ -8,7 +30,7 @@
 .top-right {
   position: absolute;
   top: 50px;
-  right: 40px;
+  right: 30px;
   border: 2 solid white;
   color: black;
   background-color: white;
@@ -19,8 +41,19 @@
 #roboResponse {
   display: none;
   max-width: 150px;
-  font-size: 12px;
 }
+
+.finalList {
+  font-size: 18px;
+  word-wrap: break-word;
+  padding: 5px;
+}
+
+#title {
+  font-size: 20px;
+  text-align: center;
+}
+
 
 #newMessage {
   display: none;
@@ -38,37 +71,8 @@
   line-height: 4em;
 }
 
-.finalList {
-  font-size: 10px;
-  word-wrap: break-word;
-  padding: 5px;
-}
-
-body {
-  background-color: #232323;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-button {
-background-color: #3E4142;
-color: #168282;
-height: 30px;
-border-radius: 8px;
-font-size: 18px;
-}
-
-#title {
-  font-size: 20px;
-  text-align: center;
-}
-
-h1 {
-  color: white;
-}
-
-img {
-  border-radius: 6px;
+#hello {
+  font-size: 12px;
 }
 
 #userInput {
