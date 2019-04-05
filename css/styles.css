@@ -1,0 +1,86 @@
+/* container for image and output */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-right {
+  position: absolute;
+  top: 50px;
+  right: 40px;
+  border: 2 solid white;
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 0px 5px 0 5px;
+}
+
+#roboResponse {
+  display: none;
+  max-width: 150px;
+  font-size: 12px;
+}
+
+#newMessage {
+  display: none;
+}
+
+#newMessage a {
+  margin-left: 15px;
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid white;
+  background-color: #3E4142;
+  color: #168282;
+  border-radius: 8px;
+  font-size: 18px;
+  line-height: 4em;
+}
+
+.finalList {
+  font-size: 10px;
+  word-wrap: break-word;
+  padding: 5px;
+}
+
+body {
+  background-color: #232323;
+  /* background-color: #686d6b; */
+  /* background-image: url(../img/robot.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+button {
+background-color: #3E4142;
+color: #168282;
+height: 30px;
+border-radius: 8px;
+font-size: 18px;
+}
+
+#title {
+  font-size: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+}
+
+img {
+  border-radius: 6px;
+/* padding-left: 0px;
+padding-right: 0px; */
+}
+
+#userInput {
+  color: black;
+}
+
+/* #beepForm {
+  color: white;
+  text-align: center;
+  padding: 15px;
+} */
