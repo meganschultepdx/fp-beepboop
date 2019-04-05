@@ -26,7 +26,6 @@ $(document).ready(function() {
     var input = parseInt($("#userInput").val());
     var output = beepBoop(input).toString();
     $(".finalList").text(output);
-    console.log(output)
 
     $("#roboResponse").show();
     $("#beepForm").hide();

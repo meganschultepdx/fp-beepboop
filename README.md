@@ -14,7 +14,7 @@ This page will take the user's imputted number and turn it into an array that ha
 * Make a clone from GitHub at: https://github.com/meganschultepdx/fp-beepboop
 * Open in Atom or similar text editor to view code
 * open .html file in browser for web view
-* or you can use this to view my GH-pages for this project: #########
+* or you can use this to view my GH-pages for this project: https://meganschultepdx.github.io/FP-beepboop
 * you can test functionality in the browser by enteing a number in the form box
 * you should receive a list of numbers back up to your inputted number that includes:
 
