@@ -6,11 +6,11 @@ function beepBoop(input) {
 
   for (var index = 0; index <= input; index ++) {
     if (index.toString().includes("3")) {
-      output.push("I'm sorry, Ben & Josh; I'm afraid I can't do that.");
+      output.push(" " + "I'm sorry, Ben & Josh; I'm afraid I can't do that.");
     } else if (index.toString().includes("2")) {
-      output.push("boop");
+      output.push(" " + "boop");
     } else if (index.toString().includes("1")) {
-      output.push("beep");
+      output.push(" " + "beep");
     } else {
       output.push(index);
     }
