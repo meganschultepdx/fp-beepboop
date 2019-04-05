@@ -46,8 +46,6 @@
 
 body {
   background-color: #232323;
-  /* background-color: #686d6b; */
-  /* background-image: url(../img/robot.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -71,16 +69,8 @@ h1 {
 
 img {
   border-radius: 6px;
-/* padding-left: 0px;
-padding-right: 0px; */
 }
 
 #userInput {
   color: black;
 }
-
-/* #beepForm {
-  color: white;
-  text-align: center;
-  padding: 15px;
-} */
