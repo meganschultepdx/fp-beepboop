@@ -12,7 +12,7 @@ function beepBoop(input) {
     } else if (index.toString().includes("1")) {
       output.push(" " + "beep");
     } else {
-      output.push(index);
+      output.push(" " + index);
     }
   }
   return output;
